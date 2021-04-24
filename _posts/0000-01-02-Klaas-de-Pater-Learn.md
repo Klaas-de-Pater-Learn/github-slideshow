@@ -1,9 +1,11 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 ---
 layout: slide
 title: "Welcome to our second slide!"
 ---
 Check out this diagram:
-::: mermaid
+<div class="mermaid">
 sequenceDiagram
     participant Bot
     participant Me
@@ -15,5 +17,5 @@ sequenceDiagram
     Me-->>Bot: Well I've done what you asked!
     Bot->>Me: I see you've followed the steps. Check out your website here!
     Me-->>Bot: Jolly good!
-:::
+</div>
 Use the left arrow to go back!
