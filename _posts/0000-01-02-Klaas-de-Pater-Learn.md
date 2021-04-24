@@ -1,9 +1,9 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
 ---
 layout: slide
 title: "Welcome to our second slide!"
 ---
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 Check out this diagram:
 <div class="mermaid">
 sequenceDiagram
